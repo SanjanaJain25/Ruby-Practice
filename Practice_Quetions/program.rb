@@ -11,10 +11,10 @@
 
 
 arr = [1,2,3,4,5,6]
-# arr[1] = 20
-# arr.each do|i|
-# 	puts arr[i]
-# end
+arr[1] = 20
+arr.each do|i|
+	puts arr[i]
+end
 
 #puts arr.map {|i| i*i}
 
@@ -22,4 +22,4 @@ arr = [1,2,3,4,5,6]
 
 # puts arr.find {|i| i>5}
 
-puts arr.reduce()
+#puts arr.reduce()
