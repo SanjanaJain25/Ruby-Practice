@@ -2,20 +2,10 @@
 #digits, and punctuation.
 
 str = "sanjana"
-vowels_count = 0
-consonants_count = 0 
-vowels = ""
-consonats = ""
-vowel_list = ['a','e','i','o','u']
-for char in str.chars
-	if vowel_list.include?(char)
-      vowels_count += 1
-      vowels += char
-  else
-  	consonants_count += 1
-  	consonants += char
-  end
-end
+ 
 
-puts "#{vowels}: #{vowels_count}"
-puts "#{consonants}: #{consonants_count}" 
+vowels = str.count("aeiou")
+consonants = str.count("bcdfghjklmnpqrstvwxyz")
+
+puts "vowelsCount : #{vowels}"
+puts "consonantsCount: #{consonants}"
