@@ -4,8 +4,8 @@ $i = 0
 $num = 5
 
 while $i < $num  do
-   puts("Inside the loop i = #$i" )
-   $i +=1
+  puts("Inside the loop i = #$i" )
+  $i +=1
 end
 
 puts "/n"
@@ -14,8 +14,8 @@ puts "/n"
 $i = 0
 $num = 5
 begin
-   puts("Inside the loop i = #$i" )
-   $i +=1
+  puts("Inside the loop i = #$i" )
+  $i +=1
 end while $i < $num
 
 #until statement 
@@ -24,8 +24,8 @@ $num2 = 5
 
 puts ""
 until $j > $num2 do 
-	puts("Inside the loop j = #{$j}")
-	$j += 1
+  puts("Inside the loop j = #{$j}")
+  $j += 1
 end
 
 #until modifiers 
@@ -35,8 +35,8 @@ puts ""
 $k= 0
 $num3 = 5
 begin
-   puts("Inside the loop util modifiers k = #{$k}" )
-   $k +=1
+  puts("Inside the loop util modifiers k = #{$k}" )
+  $k +=1
 end until $k > $num3
 
 # for loop
@@ -45,7 +45,7 @@ sum = 0
 
 #on array
 for ele in num 
-   sum +=ele
+  sum +=ele
 end
 
 puts "sum of arr is #{sum}"
