@@ -1,0 +1,10 @@
+<h1>All Persons Information</h1>
+
+<div id="persons">
+	<% @person_infos.each do |person| %>
+		<% byebug %>
+		<p> <%= person.name %> </p>
+		<p> <%= person.sirname %> </p>
+		<p>  <%= person.email %> </p>
+	<% end %>
+</div>
